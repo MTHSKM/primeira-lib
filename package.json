@@ -1,0 +1,29 @@
+{
+  "name": "nome-lib",
+  "version": "1.0.0",
+  "description": "descrição",
+  "main": "./cli.js",
+  "bin": {
+    "nome-lib": "./cli.js"
+  },
+  "preferGlobal": true,
+  "type": "module",
+  "scripts": {
+    "test": "jest ./test",
+    "cli": "node ./src/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MTHSKM/primeira-lib.git"
+  },
+  "keywords": ["markdown", "URL"],
+  "author": "Matheus Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MTHSKM/primeira-lib/issues"
+  },
+  "homepage": "https://github.com/MTHSKM/primeira-lib#readme",
+  "dependencies": {
+    "chalk": "5.0.1"
+  }
+}
